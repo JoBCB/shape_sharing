@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Sharing_and_Shaping</title>
+
+  <meta charset="utf-8"/>
+  <meta name="description" content="Sharing_and_Shaping workshop">
+  <meta name="keywords" content="Web Digital Media Screen Hypertext Scores Scripts">
+  <meta name="author" content="Miguel Carvalhais Joana Chicau">
+
+<style type="text/css">
+
+body {
+  font-family: sans-serif;
+  font-size: 62pt;
+  font-weight: bold;
+}  
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.left {
+  left: 0;
+}
+
+
+.right {
+  right: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  border-radius: 50%;
+}
+
+img{
+  max-width: 200px;
+  margin-top: 20%;
+}
+</style>
+</head>
+<body>
+ <div class="split left">
+  <div class="centered">
+  <div id="material_left"></div>
+  </div> 
+  </div>   
+
+  <div class="split right">
+  <div class="centered">    
+    <div id="material_right"></div>
+  </div> 
+  </div> 
+
+<script type="text/javascript">
+
+var total_material = 9;
+//var random_number = Math.floor((Math.random()*total_material));
+var material_leftside = new Array();
+material_leftside[0] = '<img src="1.png">';
+material_leftside[1] = '<img src="2.jpg">';
+material_leftside[2] = 'SPACING';
+material_leftside[3] = '<img src="3.png">';
+material_leftside[4] = '<img src="4.png">';
+material_leftside[5] = '<img src="5.png">';
+material_leftside[6] = '<img src="6.gif">';
+material_leftside[7] = '<img src="7.png">';
+material_leftside[8] = '<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Big_help_cursor.png">'
+
+
+function Random_LeftSide(){
+var random_number= Math.floor(Math.random()*material_leftside.length);
+document.getElementById('material_left').innerHTML=material_leftside[random_number];
+
+}
+//setInterval("Random_LeftSide()",500)
+onload = function() { Random_LeftSide(); }
+var inter = setInterval(function() { Random_LeftSide(); }, 500);
+
+
+
+var total_material = 9;
+var material_rightside = new Array();
+material_rightside[0] = '<img src="1.png">';
+material_rightside[1] = '<img src="2.jpg">';
+material_rightside[2] = 'TIMING';
+material_rightside[3] = '<img src="3.png">';
+material_rightside[4] = '<img src="4.png">';
+material_rightside[5] = '<img src="5.png">';
+material_rightside[6] = '<img src="6.gif">';
+material_rightside[7] = '<img src="7.png">';
+material_rightside[8] = '<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Big_help_cursor.png">'
+
+function Random_RightSide(){
+var random_number= Math.floor(Math.random()*material_rightside.length);
+document.getElementById('material_right').innerHTML=material_rightside[random_number];
+
+}
+onload = function() { Random_RightSide(); }
+var inter = setInterval(function() { Random_RightSide(); }, 500);
+
+</script>
+</body>
+</html>
