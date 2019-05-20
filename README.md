@@ -24,9 +24,9 @@ Workshop developed in the context of [Bienal da Maia 2019](http://bienaldamaia.c
 
 References on choreographic systems of notation:
 
-* [Post Modern Scores](http://pzwart1.wdka.hro.nl/~jo/notebook/series/glossary.html)
+* [Post Modern Scores & Programming Scripts](http://pzwart1.wdka.hro.nl/~jo/notebook/series/glossary.html)
 
-* [Eshkol-Wachman Movement Notation [EWMN]](https://joanachicau.x-temporary.org/)
+* [Eshkol-Wachman Movement Notation & Cybernetics](https://joanachicau.x-temporary.org/)
 
 
 Further readings and links: 
