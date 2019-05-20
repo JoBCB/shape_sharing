@@ -9,8 +9,7 @@ Workshop developed in the context of [Bienal da Maia 2019](http://bienaldamaia.c
 ## References:
 #### Syntaxes and glossaries of language(s) for movement(s).
 
-> "Choreography is the term that presides over a class of ideas: an idea is perhaps in this case a thought or suggestion as to a possible course of action. " at [Choreographic Objects by William Forsythe](http://www.williamforsythe.com/essay.html) 
-More quotes from the same author:
+> "Choreography is the term that presides over a class of ideas: an idea is perhaps in this case a thought or suggestion as to a possible course of action. " at [Choreographic Objects by William Forsythe](http://www.williamforsythe.com/essay.html); more quotes from the same author:
 
 > "Choreographies model uncertain outcomes";
 
