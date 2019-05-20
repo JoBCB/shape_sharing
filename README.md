@@ -22,7 +22,7 @@ Workshop developed in the context of [Bienal da Maia 2019](http://bienaldamaia.c
 > "Choreographies valorize failure";
 
 
-References on choreographic systems of notation:
+Examples on the "writing of movement(s)":
 
 * [Post Modern Scores & Programming Scripts](http://pzwart1.wdka.hro.nl/~jo/notebook/series/glossary.html)
 
