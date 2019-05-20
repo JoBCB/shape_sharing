@@ -29,5 +29,5 @@ References on choreographic systems of notation:
 * [Eshkol-Wachman Movement Notation & Cybernetics](https://joanachicau.x-temporary.org/)
 
 
-Further readings and links: 
-* [Rehearsal Series: References and Tools](https://github.com/JoBCB/Rehearsal_Series/wiki/References)
+Further readings and links on Choreography; Code; Graphic Design; Open Source Technologies and Feminist Theory:
+* [Rehearsal Series](https://github.com/JoBCB/Rehearsal_Series/wiki/References)
